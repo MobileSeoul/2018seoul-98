@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyTheme2.ActionBarStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:titleTextStyle">@font/binggrae</item>
+        <item name="android:titleTextColor">#ffffff</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">@font/binggrae</item>
+        <item name="android:textColor">#ffffff</item>
+
+
+    </style>
+</resources>

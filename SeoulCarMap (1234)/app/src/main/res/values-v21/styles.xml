@@ -1,0 +1,23 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/color_background</item>
+    </style>
+
+    <style name="MyActionBarTitle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:statusBarColor">@color/color_background</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">@font/binggrae</item>
+        <item name="android:textColor">@color/color_font</item>
+    </style>
+
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light">
+        <item name="android:fontFamily">@font/binggrae</item>
+        <item name="android:statusBarColor">@color/color_background</item>
+        <!-- Customize your theme here. -->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+</resources>
